@@ -53,6 +53,8 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+//frontend client port :3000
+//backend server port: 5000
 const port = process.env.PORT || 5000
 
 app.listen(port, () => {
